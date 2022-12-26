@@ -1,0 +1,25 @@
+.cartPage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.productContainer2{
+    width: 60%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.totalPage{
+    background-color: #343a40;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    display: flex;
+    width: 20%;
+    margin: 10px;
+    height: 86vh;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
