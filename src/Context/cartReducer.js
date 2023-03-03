@@ -23,7 +23,7 @@ function cartReducer(state,action) {
                     ...state,
                     cart: state.cart.map(item=>{
                         if(item.id === action.payload.id){
-                            item.qty += 0.5
+                            item.qty += 1
                         }
                         return item
                     })
@@ -34,7 +34,7 @@ function cartReducer(state,action) {
                         cart:state.cart.map(item=>{
                             if(item.id === action.payload.id){
                                 if(item.qty > 0){
-                                    item.qty += -0.5
+                                    item.qty += -1
                                 }
                             }
                             return item
